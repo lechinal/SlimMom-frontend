@@ -4,7 +4,7 @@ import { createPortal } from 'react-dom';
 
 import styles from '../AcceptModal/AcceptModal.module.css';
 // import Wrapper from '../Wrapper/Wrapper';
-import backArrow from '../../images/icons/back-arrow.png';
+// import backArrow from '../../images/icons/back-arrow.png';
 import crossIcon from '../../images/icons/close-cross.svg';
 // const modalContainer = document.getElementById('modal-root');
 
