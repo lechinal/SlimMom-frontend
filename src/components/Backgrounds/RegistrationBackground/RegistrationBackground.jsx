@@ -21,7 +21,7 @@ function RegistrationBackground({ children }) {
 
   return (
     <section className={styles.background}>
-      {clientWidth <= 768 ? null : clientWidth <= 1024 ? (
+      {clientWidth <= 767 ? null : clientWidth <= 1279 ? (
         <>
           <div className={styles.leaves}>
             <img src={leaves} alt="Leaves" />
