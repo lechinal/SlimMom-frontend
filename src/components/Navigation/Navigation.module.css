@@ -1,0 +1,25 @@
+.navigation {
+  display: flex;
+  gap: 14px;
+}
+.navLink {
+  color: #9b9faa;
+  text-align: right;
+  font-family: Verdana;
+  font-size: 14px;
+
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+.navLinkActive {
+  color: #212121;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .navigation {
+    gap: 24px;
+  }
+}

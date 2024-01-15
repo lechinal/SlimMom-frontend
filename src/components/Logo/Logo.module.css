@@ -1,0 +1,10 @@
+.logo {
+  display: flex;
+}
+
+.link {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+}

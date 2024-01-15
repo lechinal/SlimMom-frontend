@@ -1,0 +1,118 @@
+.diaryProductListItem {
+  padding: 40px 15px 0 20px;
+  /* gap: 28px; */
+}
+.diaryProductListItem li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  margin-bottom: 15px;
+  font-family: Verdana, sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.04em;
+  color: #212121;
+  font-weight: normal;
+}
+
+.productName {
+  width: 45%;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #e0e0e0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  color: #212121;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.56px;
+}
+
+.productWeight {
+  width: 20%;
+  /* padding-bottom: 20px; */
+  border-bottom: 1px solid #e0e0e0;
+  text-align: right;
+
+  color: #212121;
+  text-align: center;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.56px;
+}
+
+.productCalories {
+  width: 20%;
+  /* padding-bottom: 20px; */
+  border-bottom: 1px solid #e0e0e0;
+  text-align: right;
+
+  color: #212121;
+  text-align: center;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.56px;
+}
+
+.Kcal {
+  color: #212121;
+  font-family: Verdana;
+  font-size: 10px;
+
+  font-weight: 400;
+
+  letter-spacing: 0.4px;
+}
+
+.removeButton {
+  background: none;
+  border: none;
+}
+
+.closeIcon {
+  color: #9b9faa;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: all 250ms linear;
+  width: 12px;
+  height: 12px;
+}
+
+.closeIcon:hover {
+  fill: black;
+  transform: rotate(-90deg);
+}
+
+.diaryProductListItem::-webkit-scrollbar {
+  width: 50px;
+}
+
+.productListItemBox::-webkit-scrollbar-track {
+  background: red; /* Culoarea fundalului barei de derulare */
+}
+
+.diaryProductListItem::-webkit-scrollbar-thumb {
+  background: #888; /* Culoarea barei de derulare */
+}
+
+@media (min-width: 768px) {
+  .productCalories,
+  .productWeight {
+    text-align: right;
+  }
+  .Kcal {
+    color: #212121;
+
+    font-family: Verdana;
+    font-size: 14px;
+
+    font-weight: 400;
+
+    letter-spacing: 0.56px;
+  }
+}

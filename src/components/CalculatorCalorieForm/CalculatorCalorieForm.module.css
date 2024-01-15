@@ -1,0 +1,122 @@
+.titleForm {
+  color: #212121;
+  font-family: Verdana;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 140%;
+
+  padding: 32px 20px 34px 20px;
+}
+
+.labelBox {
+  width: 100%;
+  padding: 32px 20px 34px 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.labelForm {
+  width: 240px;
+
+  color: #9b9faa;
+
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.56px;
+
+  margin-bottom: 5px;
+}
+
+.inputForm {
+  border: none;
+  border-bottom: 1px solid #e0e0e0;
+  color: #9b9faa;
+
+  width: 100%;
+}
+
+.bloodTypeBox {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.radiobuttonBox {
+  width: 100%;
+}
+.radiobuttonLabel {
+  color: #9b9faa;
+
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.56px;
+
+  margin-right: 43px;
+}
+
+.radiobutton {
+  margin-right: 4px;
+}
+
+/* .radiobuttonLabel input[type='radio'] {
+  display: none;
+}
+
+.radiobuttonLabel span {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+  border: 1px solid #9b9faa;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.radiobuttonLabel input[type='radio']:checked + span {
+  background-color: #fc842d;
+} */
+
+.bloodTypeValue {
+  display: none;
+}
+
+.error {
+  font-weight: normal;
+  font-family: Verdana;
+  font-style: italic;
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  line-height: 1.6;
+  color: red;
+}
+
+.buttonBox {
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.buttonSubmit {
+  border-radius: 30px;
+  padding: 13px 25px;
+  border: none;
+
+  color: #fff;
+  text-align: center;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.56px;
+  background: #fc842d;
+  box-shadow: 0px 4px 10px 0px rgba(252, 132, 45, 0.5);
+}
+/* opacitate buton */
+:disabled {
+  opacity: 0.6;
+}

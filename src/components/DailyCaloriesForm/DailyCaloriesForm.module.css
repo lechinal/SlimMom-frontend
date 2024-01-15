@@ -1,0 +1,190 @@
+.formBox {
+  padding: 32px 20px 34px 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.titleForm {
+  color: #212121;
+  font-family: Verdana;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 140%;
+  padding-bottom: 34px;
+}
+
+.leftLabelBox {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding-bottom: 34px;
+}
+
+.rightLabelBox {
+  width: 100%;
+  color: #9b9faa;
+
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.56px;
+
+  margin-bottom: 40px;
+}
+.labelForm {
+  width: 239px;
+
+  color: #9b9faa;
+
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.56px;
+
+  margin-bottom: 5px;
+}
+
+.inputForm {
+  border: none;
+  border-bottom: 1px solid #e0e0e0;
+  color: #9b9faa;
+
+  width: 100%;
+}
+.rightLabelBox {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.labelFormDweight {
+  width: 239px;
+}
+.bloodTypeBox {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.labelFormBlood {
+  width: 239px;
+
+  color: #9b9faa;
+
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.56px;
+
+  margin-bottom: 5px;
+}
+.radiobuttonBox {
+  width: 100%;
+}
+.radiobuttonLabel {
+  color: #9b9faa;
+
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.56px;
+
+  margin-right: 43px;
+}
+
+.radiobutton {
+  margin-right: 4px;
+}
+
+/* .radiobuttonLabel input[type='radio'] {
+  display: none;
+}
+
+.radiobuttonLabel span {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+  border: 1px solid #9b9faa;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.radiobuttonLabel input[type='radio']:checked + span {
+  background-color: #fc842d;
+} */
+
+.bloodTypeValue {
+  display: none;
+}
+
+.error {
+  font-weight: normal;
+  font-family: Verdana;
+  font-style: italic;
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  line-height: 1.6;
+  color: red;
+}
+
+/* Responsive */
+
+@media screen and (min-width: 768px) {
+  .formBox {
+    height: 100vh;
+    /* position: relative; */
+    background: url(../../images/pictures/Tablet/tablet-strawberry-1x.png)
+        no-repeat right 30px bottom 160px,
+      url(../../images/pictures/Tablet/tablet-banana-1x.png) no-repeat right 0
+        bottom 0,
+      url(../../images/pictures/Tablet/tablet-leafs-1x.png) no-repeat right
+        170px bottom 0px,
+      url(../../images/pictures/Tablet/tablet-splash-1x.png) no-repeat right 0
+        bottom -4px;
+  }
+  .loggedIn {
+    background: none;
+  }
+  .titleFormBox {
+    margin-top: 60px;
+  }
+  .titleForm {
+    font-family: Verdana;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    width: 704px;
+  }
+
+  .form {
+    flex-direction: row;
+  }
+  .rightLabelBox {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  .btnBox {
+    display: flex;
+    margin-top: 60px;
+  }
+}
+/* @media (min-device-pixel-ratio: 2) and (min-width: 768px),
+  (min-resolution: 192dpi) and (min-width: 768px),
+  (min-resolution: 2dppx) and (min-width: 768px) {
+  .formBox {
+    background: url(../../images/pictures/Tablet/tablet-strawberry-2x.png)
+        no-repeat right 30px bottom 120px,
+      url(../../images/pictures/Tablet/tablet-banana-2x.png) no-repeat right 0
+        bottom 0,
+      url(../../images/pictures/Tablet/tablet-leafs-2x.png) no-repeat right 90px
+        bottom -30px,
+      url(../../images/pictures/Tablet/tablet-splash-2x.png) no-repeat right 0
+        bottom -4px;
+  }
+} */

@@ -1,0 +1,21 @@
+.background {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+
+  max-width: 100%;
+  top: 0;
+}
+.leaves {
+  @media (min-width: 768px) {
+    display: block;
+    position: absolute;
+    right: -260px;
+    bottom: -140px;
+  }
+
+  @media (min-width: 1024px) {
+    right: 250px;
+    bottom: 0px;
+  }
+}

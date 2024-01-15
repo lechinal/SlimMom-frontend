@@ -1,0 +1,27 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  width: 48px;
+  height: 48px;
+  box-shadow: rgba(252, 132, 45, 0.5) 0px 4px 10px;
+  border-radius: 30px;
+  border: none;
+  background-color: rgb(252, 132, 45);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  margin: 60px auto;
+}
+.subdirectoryIcon {
+  position: absolute;
+  top: -25px;
+  left: 20px;
+}
+
+@media (min-width: 768px) {
+  .desktopForm {
+    position: static;
+    margin-bottom: 50px;
+  }
+}

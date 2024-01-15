@@ -1,0 +1,124 @@
+.intakeBox {
+  width: 100%;
+  padding: 32px 20px 34px 20px;
+}
+
+.intakeTitle {
+  width: 100%;
+  color: #212121;
+
+  font-family: Verdana;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+.intakeCaloriesBox {
+  width: 100%;
+
+  padding: 42px 0 32px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+.intakeCaloriesText {
+  width: 279px;
+  height: 62px;
+
+  color: #264061;
+
+  text-align: center;
+  font-family: Verdana;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.92px;
+}
+
+.intakeCaloriesSpan {
+  color: #264061;
+  font-family: Verdana;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.64px;
+}
+
+.intakeSubTitle {
+  color: #212121;
+
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.56px;
+
+  padding-top: 32px;
+}
+
+.intakeNotAllowed {
+  color: #9b9faa;
+  list-style-type: decimal;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.56px;
+
+  padding-top: 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Responsive */
+
+@media screen and (min-width: 768px) {
+  .intakeBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .intakeTitle {
+    color: #212121;
+
+    text-align: center;
+    font-family: Verdana;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 36.4px */
+
+    width: 450px;
+    margin: 64px 82px 0 82px;
+  }
+  .intakeCaloriesBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .notAllowedFoodBox {
+    padding-left: 130px;
+  }
+  .intakeSubTitle {
+    color: #212121;
+
+    font-family: Verdana;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.56px;
+  }
+  .intakeNotAllowed {
+    color: #9b9faa;
+
+    font-family: Verdana;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.56px;
+  }
+}

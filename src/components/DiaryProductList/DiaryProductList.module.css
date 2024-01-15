@@ -1,0 +1,39 @@
+.productListBox {
+  width: 100%;
+}
+.productList {
+  display: flex;
+  flex-direction: column;
+  /* align-items: stretch; */
+
+  list-style: none;
+  max-height: 410px;
+  overflow: hidden;
+  overflow-y: auto;
+
+  margin-bottom: 50px;
+}
+.productList::-webkit-scrollbar {
+  width: 8px;
+}
+
+.productList::-webkit-scrollbar-track {
+  background: #264061;
+}
+
+.productList::-webkit-scrollbar-thumb {
+  background: #f0f1f3;
+}
+
+.noProductsText {
+  color: #212121;
+  font-family: Verdana;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  .productList {
+    max-width: 740px;
+  }
+}
