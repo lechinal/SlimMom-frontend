@@ -128,7 +128,7 @@
   }
   .registerFormBox,
   .buttonsBox {
-    position: relative;
+    position: absolute;
     z-index: 2;
   }
 }
