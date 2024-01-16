@@ -127,7 +127,7 @@
   }
   .signinFormBox,
   .buttonsBox {
-    position: relative;
+    position: absolute;
     z-index: 2;
   }
   .buttonLogin {

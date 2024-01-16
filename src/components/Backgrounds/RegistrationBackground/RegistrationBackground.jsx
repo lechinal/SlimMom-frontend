@@ -32,7 +32,7 @@ function RegistrationBackground({ children }) {
           </div>
 
           <div className={styles.strawberry}>
-            <img src={strawberry} alt="Strawberry" />
+            <img src={strawberry} alt="Strawberry" width="286px" />
           </div>
         </>
       ) : (
