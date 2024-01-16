@@ -12,25 +12,26 @@
     background-image: url('../../../images/pictures/Tablet/shapeTablet-LoginBackground.svg');
     background-position: bottom 0px right 0px;
     background-repeat: no-repeat;
-    background-size: 70% auto;
+    background-size: 62% auto;
+    /* background-size: contain; */
   }
   .strawberry {
     display: block;
     position: absolute;
-    right: -70px;
-    bottom: 220px;
+    right: -90px;
+    bottom: 250px;
   }
   .banana {
     display: block;
     position: absolute;
     right: 0;
-    bottom: -130px;
+    bottom: -100px;
   }
   .leaves {
     display: block;
     position: absolute;
-    right: 40px;
-    bottom: 250px;
+    right: 70px;
+    bottom: 220px;
   }
 }
 
@@ -40,18 +41,21 @@
     background-image: url('../../../images/pictures/Tablet/shapeDesktop-LoginBackground.svg');
     background-position: bottom 0px right 0px;
     background-repeat: no-repeat;
-    background-size: 62% auto;
+    /* background-size: 62% auto; */
+    background-size: contain;
   }
   .strawberry {
-    right: 0px;
-    bottom: 0px;
+    right: -10px;
+    top: 550px;
   }
   .banana {
     right: 0px;
     top: -50px;
   }
   .leaves {
-    right: 150px;
-    bottom: 0px;
+    /* right: 250px;
+    bottom: 70px; */
+    right: 200px;
+    top: 0px;
   }
 }

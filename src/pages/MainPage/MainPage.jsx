@@ -31,15 +31,6 @@ function MainPage() {
         <DailyCaloriesForm onButtonClick={handleButtonClick} />
       )}
     </div>
-    // <div className={styles.mainPage}>
-    //   {isButtonClicked && isDesktopOrLaptop && (
-    //     <ModalDailyIntake onClose={handleCloseModal}>
-    //       <DailyCalorieIntake />
-    //     </ModalDailyIntake>
-    //   )}
-    //   <DailyCaloriesForm onButtonClick={handleButtonClick} />
-    //   {isButtonClicked && !isDesktopOrLaptop && <DailyCalorieIntake />}
-    // </div>
   );
 }
 

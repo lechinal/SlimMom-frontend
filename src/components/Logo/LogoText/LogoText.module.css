@@ -1,1 +1,19 @@
+.logoSeparator {
+  display: none;
+}
 
+@media (min-width: 1024px) {
+  .logoTextBox {
+    position: absolute;
+  }
+  .logoTextSvg {
+    position: relative;
+    top: 22px;
+    left: 70px;
+  }
+  .logoSeparator {
+    display: block;
+    position: absolute;
+    left: 184px;
+  }
+}

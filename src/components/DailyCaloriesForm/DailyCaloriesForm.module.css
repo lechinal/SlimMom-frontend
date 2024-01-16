@@ -174,17 +174,5 @@
     margin-top: 60px;
   }
 }
-/* @media (min-device-pixel-ratio: 2) and (min-width: 768px),
-  (min-resolution: 192dpi) and (min-width: 768px),
-  (min-resolution: 2dppx) and (min-width: 768px) {
-  .formBox {
-    background: url(../../images/pictures/Tablet/tablet-strawberry-2x.png)
-        no-repeat right 30px bottom 120px,
-      url(../../images/pictures/Tablet/tablet-banana-2x.png) no-repeat right 0
-        bottom 0,
-      url(../../images/pictures/Tablet/tablet-leafs-2x.png) no-repeat right 90px
-        bottom -30px,
-      url(../../images/pictures/Tablet/tablet-splash-2x.png) no-repeat right 0
-        bottom -4px;
-  }
-} */
+@media (min-width: 1024px) {
+}
