@@ -35,6 +35,13 @@
 }
 
 @media (min-width: 1024px) {
+  .background {
+    min-height: 100vh;
+    background-image: url('../../../images/pictures/Tablet/shapeDesktop-LoginBackground.svg');
+    background-position: bottom 0px right 0px;
+    background-repeat: no-repeat;
+    background-size: 62% auto;
+  }
   .strawberry {
     right: 0px;
     bottom: 0px;
