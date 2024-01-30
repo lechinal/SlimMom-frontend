@@ -21,7 +21,7 @@ function LoginBackground({ children }) {
 
   return (
     <section className={styles.background}>
-      {clientWidth <= 767 ? null : clientWidth <= 1279 ? (
+      {clientWidth <= 767 ? null : clientWidth <= 1024 ? (
         <>
           <div className={styles.leaves}>
             <img src={leaves} alt="Leaves" />

@@ -1,0 +1,10 @@
+.calculatorPageBox {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+@media (min-width: 1024px) {
+  .calculatorPageBox {
+    flex-direction: row;
+  }
+}

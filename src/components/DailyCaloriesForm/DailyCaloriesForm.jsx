@@ -12,6 +12,7 @@ import { bloodTypes } from '../../helpers/constants';
 
 import { getCategoriesByBloodType } from '../../helpers/getCategoriesByBloodType';
 import StartLosingWeightBtn from './StartLosingWeightBtn/StartLosingWeightBtn';
+import DailyCaloriesFormBackground from '../Backgrounds/DailyCaloriesFormBackground/DailyCaloriesFormBackground';
 
 function DailyCaloriesForm({ onButtonClick }) {
   const dispatch = useDispatch();
@@ -75,6 +76,7 @@ function DailyCaloriesForm({ onButtonClick }) {
   };
 
   return (
+    // <DailyCaloriesFormBackground>
     <div className={`${styles.formBox} ${isLoggedIn ? styles.loggedIn : ''}`}>
       <div className={styles.titleFormBox}>
         <h1 className={styles.titleForm}>
@@ -207,10 +209,12 @@ function DailyCaloriesForm({ onButtonClick }) {
           <p className={styles.error}>{errors?.bloodType?.message}</p>
         )}
       </form>
+
       <div className={styles.btnBox}>
         <StartLosingWeightBtn onClick={handleSubmit(onSubmitForm)} />
       </div>
     </div>
+    // </DailyCaloriesFormBackground>
   );
 }
 

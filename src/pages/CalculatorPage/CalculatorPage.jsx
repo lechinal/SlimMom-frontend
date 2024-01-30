@@ -11,10 +11,14 @@ function CalculatorPage() {
 
   return (
     <div className={styles.calculatorPageBox}>
-      <CalculatorCalorieForm
-        onButtonClick={() => navigate(routes.diaryToday)}
-      />
-      <Sidebar />
+      <div className={styles.calculatorCalorieBox}>
+        <CalculatorCalorieForm
+          onButtonClick={() => navigate(routes.diaryToday)}
+        />
+      </div>
+      <div className={styles.sidebarBox}>
+        <Sidebar />
+      </div>
     </div>
   );
 }

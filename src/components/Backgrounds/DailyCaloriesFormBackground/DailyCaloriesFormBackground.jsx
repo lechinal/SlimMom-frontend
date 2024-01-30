@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import styles from './RegistrationBackground.module.css';
+import styles from './DailyCaloriesFormBackground.module.css';
 
-import strawberry from '../../../images/pictures/Tablet/Strawberry-Big-PNG.png';
+import strawberry from '../../../images/pictures/Desktop/desktop-strawberry-1x.png';
 import banana from '../../../images/pictures/Desktop/desktop-banana-1x.png';
-import leaves from '../../../images/pictures/Tablet/tablet-leaves-flipped-1x.png';
-import leavesDesktop from '../../../images/pictures/Desktop/desktop-leafs-1x.png';
+import leaves from '../../../images/pictures/Tablet/tablet-leafs-1x.png';
+import leavesDesktop from '../../../images/pictures/Desktop/desktop-leaves-flipped-1x.png';
 
-function RegistrationBackground({ children }) {
+function DailyCaloriesFormBackground({ children }) {
   const [clientWidth, setclientWidth] = useState(0);
 
   const handleResize = () => {
@@ -55,4 +55,4 @@ function RegistrationBackground({ children }) {
   );
 }
 
-export default RegistrationBackground;
+export default DailyCaloriesFormBackground;

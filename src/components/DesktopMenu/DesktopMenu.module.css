@@ -1,0 +1,39 @@
+.desktopMenulist {
+  display: none;
+}
+
+.desktopMenulist {
+}
+.menuListElement {
+}
+
+.navLink {
+  color: #212121;
+  font-family: Verdana;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+.navLinkActive {
+  color: #9b9faa;
+  text-transform: uppercase;
+}
+
+@media (min-width: 1024px) {
+  .desktopMenuBox {
+    position: absolute;
+  }
+  .desktopMenulist {
+    list-style: none;
+
+    display: flex;
+    gap: 24px;
+
+    position: relative;
+    left: 190px;
+    top: 25px;
+  }
+}

@@ -12,25 +12,25 @@
     background-image: url('../../../images/pictures/Tablet/shapeTablet-LoginBackground.svg');
     background-position: bottom 0px right 0px;
     background-repeat: no-repeat;
-    background-size: 70% auto;
+    background-size: 62% auto;
   }
   .strawberry {
     display: block;
     position: absolute;
-    right: -90px;
-    bottom: 250px;
+    left: 400px;
+    bottom: 200px;
   }
   .banana {
     display: block;
     position: absolute;
-    right: 0;
+    right: 0px;
     bottom: -100px;
   }
   .leaves {
     display: block;
     position: absolute;
-    right: 70px;
-    bottom: 220px;
+    left: 0px;
+    bottom: 20px;
   }
 }
 
@@ -38,13 +38,13 @@
   .background {
     min-height: 100vh;
     background-image: url('../../../images/pictures/Tablet/shapeDesktop-LoginBackground.svg');
-    background-position: bottom 0px right 0px;
+    background-position: top 0px right 0px;
     background-repeat: no-repeat;
-    /* background-size: 62% auto; */
-    background-size: contain;
+    background-size: 62% auto;
+    /* background-size: contain; */
   }
   .strawberry {
-    right: -10px;
+    left: 800px;
     top: 550px;
   }
   .banana {
@@ -52,7 +52,7 @@
     top: -50px;
   }
   .leaves {
-    right: 200px;
-    top: -30px;
+    left: 420px;
+    bottom: 120px;
   }
 }

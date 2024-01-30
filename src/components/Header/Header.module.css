@@ -26,10 +26,18 @@
   margin-left: auto;
 }
 
+.modalBox {
+  display: block;
+}
+
 @media (min-width: 1024px) {
   .header {
     border-bottom: none;
     justify-content: flex-start;
     padding-top: 100px;
+  }
+
+  .modalBox {
+    display: none;
   }
 }

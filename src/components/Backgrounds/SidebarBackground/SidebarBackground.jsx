@@ -18,7 +18,7 @@ function SidebarBackground({ children }) {
 
   return (
     <div className={styles.background}>
-      {clientWidth <= 768 ? null : clientWidth <= 1280 ? (
+      {clientWidth <= 768 ? null : clientWidth <= 1024 ? (
         <>
           <div className={styles.leaves}>
             <img src={leaves} alt="Leaves" />

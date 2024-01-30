@@ -6,9 +6,7 @@ import { logOut } from '../../redux/auth/operations';
 import { removeCalories } from '../../redux/calculate/slice';
 import { selectUserName } from '../../redux/auth/selectors';
 import AcceptModal from '../AcceptModal/AcceptModal';
-// import Wrapper from '../Wrapper/Wrapper';
 import styles from './UserInfo.module.css';
-// import arrowImg from '../../images/icons/arrow-left.png';
 
 function UserInfo({ burgerActive, displayLocation }) {
   const dispatch = useDispatch();

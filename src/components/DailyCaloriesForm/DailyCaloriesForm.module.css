@@ -136,7 +136,7 @@
 @media screen and (min-width: 768px) {
   .formBox {
     height: 100vh;
-    /* position: relative; */
+
     background: url(../../images/pictures/Tablet/tablet-strawberry-1x.png)
         no-repeat right 30px bottom 160px,
       url(../../images/pictures/Tablet/tablet-banana-1x.png) no-repeat right 0
@@ -173,6 +173,35 @@
     display: flex;
     margin-top: 60px;
   }
+  .leftLabelBox {
+    width: 50%;
+  }
 }
 @media (min-width: 1024px) {
+  .formBox {
+    background: url(../../images/pictures/Desktop/desktop-strawberry-1x.png)
+        no-repeat right 30px bottom 70px,
+      url(../../images/pictures/Desktop/desktop-banana-1x.png) no-repeat right 0
+        top -70px,
+      url(../../images/pictures/Desktop/desktop-leaves-flipped-1x.png) no-repeat
+        right 210px top -50px,
+      url(../../images/pictures/Desktop/desktop-splash-1x.png) no-repeat right 0
+        bottom -4px;
+  }
+
+  .leftLabelBox {
+    width: 60%;
+  }
+  .btnBox {
+    padding-left: 200px;
+  }
+  .loggedIn {
+    background: none;
+  }
+}
+
+@media (min-width: 1280px) {
+}
+
+@media (min-width: 1440px) {
 }

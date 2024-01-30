@@ -1,4 +1,4 @@
-.titleForm {
+/* .titleForm {
   color: #212121;
   font-family: Verdana;
   font-size: 18px;
@@ -60,7 +60,7 @@
 
 .radiobutton {
   margin-right: 4px;
-}
+} */
 
 /* .radiobuttonLabel input[type='radio'] {
   display: none;
@@ -80,7 +80,7 @@
   background-color: #fc842d;
 } */
 
-.bloodTypeValue {
+/* .bloodTypeValue {
   display: none;
 }
 
@@ -116,7 +116,7 @@
   background: #fc842d;
   box-shadow: 0px 4px 10px 0px rgba(252, 132, 45, 0.5);
 }
-/* opacitate buton */
+
 :disabled {
   opacity: 0.6;
-}
+} */

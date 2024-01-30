@@ -19,7 +19,7 @@ function LogoText() {
         fill="none"
         className={styles.logoSeparator}
       >
-        <path d="M1 0L0.999999 32" stroke="#E0E0E0" stroke-width="2" />
+        <path d="M1 0L0.999999 32" stroke="#E0E0E0" strokeWidth="2" />
       </svg>
     </div>
   );

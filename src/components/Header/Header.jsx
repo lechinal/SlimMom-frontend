@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { useSelector } from 'react-redux';
 import styles from './Header.module.css';
 
-// import Wrapper from '../Wrapper/Wrapper';
 import Logo from '../Logo/Logo';
 import Navigation from '../Navigation/Navigation';
 import hamburgerIcon from '../../images/icons/burger-icon.svg';
@@ -10,6 +9,7 @@ import crossIcon from '../../images/icons/close-cross.svg';
 
 import HamburgerModal from 'components/HamburgerModal/HamburgerModal';
 import UserInfo from '../UserInfo/UserInfo';
+import DesktopMenu from '../DesktopMenu/DesktopMenu';
 
 function Header({ isWideScreen }) {
   const isLoggedIn = useSelector(state => state.auth.isLoggedIn);
@@ -24,6 +24,7 @@ function Header({ isWideScreen }) {
       className={`${styles.header} ${isMenuOpen ? styles.modalOpen : ''}`}
     >
       <Logo isLogged={isLoggedIn} />
+      {isLoggedIn && isWideScreen && <DesktopMenu />}
 
       {isLoggedIn && isWideScreen && (
         <div className={styles.userInfoContainer}>
@@ -39,6 +40,7 @@ function Header({ isWideScreen }) {
               alt="hamburger-menu"
             />
           </button>
+
           {isMenuOpen && (
             <HamburgerModal isOpen={isMenuOpen} onClose={toggleMenu} />
           )}
